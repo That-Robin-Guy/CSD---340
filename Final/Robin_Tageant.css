@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+body {
+    background-color: #8DC3F2;
+}
+
+
+header {
+    background-color: #0476D9;
+    text-align: right;
+    
+}
+
+
+header h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-right: 25px;   
+    margin-top: 0%;
+    position: relative;
+
+}
+
+header h2 {
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: whitesmoke;
+    padding-right: 25px;
+    position: relative;
+    padding-top: 20px;
+    
+}
+
+header h1:hover {
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+header h2:hover {
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+header h3 {
+    background-color: #0460D9;
+
+    position: relative;
+}
+
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   padding-left: 150px;
+   padding-right: 150px;
+}
+
+.profile {
+    width: 950px;
+    display: flex;
+    box-shadow: #0476D9 10px;
+}
+
+.profile img {
+    border: solid #0476D9 10px;
+}
+
+.profile img:hover {
+    border-color: #0460D9;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.profile-pic {
+    flex-direction: left;
+    padding-right: 5px;
+    margin-right: 10px;
+}
+
+.profile-body {
+    flex-direction: right;
+    box-sizing: content-box;
+    box-shadow: 5px #8DC3F2;
+    width: 550px;
+    background-color: #0460D9;
+    padding-left: 5px;
+    margin-left: 10px;
+    color: white;
+}
+
+.profile-body h2 {
+    text-align: right;
+    padding-right: 30px;
+    font-family: "Raleway", sans-serif;
+}
+
+.profile-body p {
+    padding: 20px;
+}
+
+.profile-body h2:hover {
+    transform: scale(1.03);
+    transition: all 1s ease;
+    
+}
+
+.card {
+    
+    background: #0460D9;
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image {
+    height: 230px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.hobby-1 {
+    background-image: url('Images/Robin_Gym.jpeg');
+    background-position-y: center;
+}
+
+.hobby-2 {
+    background-image: url('Images/Robin_Beach.jpeg');
+    background-position-y: center;
+}
+
+.hobby-3 {
+    background-image: url('Images/Robin_Art.jpeg');
+    background-position-y: center;
+}
+
+.vm-1 {
+    background-image: url('Images/VM_Example.jpeg');
+
+}
+
+.family-1 {
+    background-image: url('Images/Robin_Brother.jpeg');
+}
+
+.mardigras-1 {
+    background-image: url('Images/Robin_MardiGras.jpeg');
+}
+
+
+.card h2 {
+    padding:10px;
+    color: white;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.card h3 {
+    background-color: #F29544;
+    text-align: center;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    margin: 5px 50px;
+    font-family: "Noto", sans-serif;
+}
+
+
+.card p {
+    padding: 10px;
+    color: white;
+}
+
+.card:hover {
+    background-color: #0476D9;
+    color: #0460D9;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.contact {
+    background-color: #0460D9;
+    width: 650px;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border: #F29544 10px solid;
+    font-family: "Raleway", sans-serif;
+}
+
+.contact button {
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #F29544;
+    display: inline-block;
+    font-weight: 500;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
